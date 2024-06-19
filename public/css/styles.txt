@@ -1,45 +1,57 @@
-/* public/css/styles.css */
-
-/* Style the container */
-.container {
-    max-width: 800px; /* Adjust container width as needed */
-    margin: 0 auto; /* Center align the container */
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Style the table */
-#rssfeed-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-/* Style table headers */
-#rssfeed-table th {
-    background-color: #f2f2f2;
+.header {
+    background: #f8f8f8;
     padding: 10px;
-    text-align: left;
+    text-align: right;
 }
 
-/* Style table rows */
-#rssfeed-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-/* Style links inside table */
-#rssfeed-table a {
+.brand-link {
+    color: #555;
     text-decoration: none;
-    color: #007bff;
+    font-size: 14px;
 }
 
-/* Adjust image sizes within table */
-#rssfeed-table img {
-    max-width: 100%; /* Ensure images do not exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent inline image issues */
-    margin: auto; /* Center images within their container */
+.main-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px 0;
+    background: #f0f0f0;
+}
+
+.about-image {
+    background-image: url('https://www.example.com/your-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }

@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #ae9cff;
+}
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #ae9cff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: #575a7b;
+}
+.word-example {
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+
+header {
+    background-color: #0d6c7c;
+    color: azure ;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: azure;
+}
+
+.logo-footer{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: #0d6c7c;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    
+    margin: 100;
+    padding: 50;
+    display: flex;
+}
+
+nav ul li {
+    padding: 7px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif !important;
+    font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.logo-footer{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: #0d6c7c;
+    padding: 50px;
+}
+footer {
+    margin-top: 750px;
+    background-color: #ae9cff;
+    padding: 20px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+.footer-links {
+    color: #0d6c7c;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    font-size: large;
+    font-family:Lucidatypewriter, monospace;
+}
+
+.footer-link {
+    flex: 1;
+    border: 1px solid #000000;
+    padding: 100px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fade-in {
+    animation: fadeIn 5s ease-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-bottom {
+    animation: slideInFromBottom 1s ease-out;
+}
+
+.link{
+    color: #0d6c7c;
+    text-decoration: none;
+}

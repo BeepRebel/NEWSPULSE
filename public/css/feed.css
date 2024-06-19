@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+
+    background-color: #B2E8CA;
+    
+}
+
+header {
+    background-color: #0d6c7c;
+    color: azure ;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: azure;
+}
+
+.logo-footer{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    color: #0d6c7c;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    
+    margin: 100;
+    padding: 50;
+    display: flex;
+}
+
+nav ul li {
+    padding: 7px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif !important;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #c7c6d3;
+    margin: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 1.2em;
+    color: azure;
+    font-family:Lucidatypewriter, monospace;
+}
+
+.hero h2 {
+    margin: 10px 0;
+    font-size: 8em;
+    color: #0c606f;
+    font-family:  Narrow, sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 20px;
+}
+
+.images img {
+    width:110%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #B2E8CA;
+    padding: 20px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+.footer-links {
+    color: #0d6c7c !important;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    font-size: large;
+    font-family:Lucidatypewriter, monospace;
+}
+
+.footer-link {
+    flex: 1;
+    border: 1px solid #000000;
+    padding: 100px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0d6c7c !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-bottom {
+    animation: slideInFromBottom 1s ease-out;
+    
+}
+.link{
+    color: #0d6c7c;
+    text-decoration: none;
+}

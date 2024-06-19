@@ -18,7 +18,7 @@ class RssFeedController extends Controller
             // Check if 'item' key exists in $data array
             $items = Arr::get($data, 'channel.item', []);
 
-            return view('rssfeed', ['items' => $items]);
+            return view('feed', ['items' => $items]);
         } catch (\Exception $e) {
             return view('error')->with('message', $e->getMessage());
         }
