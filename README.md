@@ -1,13 +1,16 @@
-# RSS Feed Web Application
+# NEWSPULSE - News Feed Website
 
-This project is a web application built with Laravel that fetches and displays news articles from the Times of India's Mumbai news section. The application provides features like searching, sorting, and pagination for a better user experience.
+This web application, developed using Laravel, fetches and displays the top 20 news articles from the Times of India's Mumbai news section. The feed updates automatically every 24 hours, ensuring users have access to the latest news.
 
 ## Features
 
-- Fetches news articles dynamically from an RSS feed.
-- Displays articles in a searchable, sortable, and paginated data table.
-- Responsive design for optimal viewing on various devices.
-- Elegant and user-friendly interface with custom styles.
+Automatic News Feed Updates: The application fetches the top 20 news articles from the Times of India's Mumbai news section and updates the feed every 24 hours.
+
+Searching, Sorting, and Pagination: Users can search for specific news articles, sort them based on different criteria, and navigate through the news articles easily using pagination.
+
+Inbuilt Dictionary: The application includes a dictionary feature that allows users to search for unknown words. It displays the word meanings, pronunciations, and includes an audio clip for pronunciation. This feature utilizes an online dictionary API.
+
+Secure Login and Sign-Up: The application uses JavaScript to validate form information, ensuring secure login and sign-up processes.
 
 ## Prerequisites
 
@@ -23,8 +26,8 @@ Follow these steps to set up and run the project:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/BeepRebel/rss-feed-app.git
-    cd rss-feed-app
+    git clone https://github.com/BeepRebel/NEWSPULSE.git
+    cd NEWSPULSE
     ```
 
 2. **Install PHP dependencies:**
